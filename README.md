@@ -103,5 +103,6 @@ sns.heatmap(df.corr(),annot=True)
 <img height=25% width=45% src="https://github.com/ROHITJAIND/EX-04-MULTIVARIATE-ANALYSIS/assets/118707073/31dfea60-84a2-4e07-bca4-d2520c65db81">
 
 <img height=25% width=45% src="https://github.com/ROHITJAIND/EX-04-MULTIVARIATE-ANALYSIS/assets/118707073/c17932ac-ff8a-4c2a-865e-c114a80e31c4">
-### RESULT:
+
+# RESULT:
 Thus we have read the given data and performed the multivariate analysis with different types of plots.
