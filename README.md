@@ -1,9 +1,9 @@
 # EX 04 MULTIVARIATE ANALYSIS
-### Aim:
+## Aim:
 To perform Multivariate EDA on the given data set.
-### Explanation:
+## Explanation:
 Exploratory data analysis is used to understand the messages within a dataset. This technique involves many iterative processes to ensure that the cleaned data is further sorted to better understand the useful meaning.The primary aim with exploratory analysis is to examine the data for distribution, outliers and anomalies to direct specific testing of your hypothesis.
-### Algorithm:
+## Algorithm:
 - Step1: Import the built libraries required to perform EDA and outlier removal.
 - Step2: Read the given csv file.
 - Step3: Convert the file into a dataframe and get information of the data.
@@ -12,7 +12,7 @@ Exploratory data analysis is used to understand the messages within a dataset. T
 
 
 
-### Program:
+# Program:
 - SuperStore.csv
 Python
 ```python
@@ -34,7 +34,7 @@ plt.xticks(rotation=90)
 sns.heatmap(df.corr(),annot=True)
 sns.displot(df,x='Region',hue="Category")
 ```
-- Output: (SuperStorE.csv)
+# Output: (SuperStorE.csv)
 <img height=20% width=35% src="https://github.com/ROHITJAIND/EX-04-MULTIVARIATE-ANALYSIS/assets/118707073/319a4805-b9d3-4a61-9500-10fa72a9ea55">
 <img height=20% width=25% src="https://github.com/ROHITJAIND/EX-04-MULTIVARIATE-ANALYSIS/assets/118707073/b5522c34-2e4e-4083-8115-1c57861d9971">
 <img height=20% width=35% src="https://github.com/ROHITJAIND/EX-04-MULTIVARIATE-ANALYSIS/assets/118707073/10438e60-a3cc-437a-8aff-26f2820f5b41">
@@ -47,7 +47,7 @@ sns.displot(df,x='Region',hue="Category")
 <img height=25% width=40% src="https://github.com/ROHITJAIND/EX-04-MULTIVARIATE-ANALYSIS/assets/118707073/c7b8247f-c1d5-457c-81d3-57a414d500f2">
 <img height=25% width=50% src="https://github.com/ROHITJAIND/EX-04-MULTIVARIATE-ANALYSIS/assets/118707073/f4beff7c-1e30-436e-9827-d285fef2c576">
 
-- Diabetes.csv
+# Diabetes.csv
 Python
 ```python
 import pandas as pd
@@ -89,7 +89,7 @@ sns.displot(df, x="Glucose", hue="Outcome")
 df.corr()
 sns.heatmap(df.corr(),annot=True)
 ```
-- Output (Diabetes.csv):
+# Output (Diabetes.csv):
 <img height=15% width=75% src="https://github.com/ROHITJAIND/EX-04-MULTIVARIATE-ANALYSIS/assets/118707073/9137a168-dab0-4a2e-a2f4-4238173bd287">
 <img height=15% width=20% src="https://github.com/ROHITJAIND/EX-04-MULTIVARIATE-ANALYSIS/assets/118707073/fdc366f8-33f2-4874-9af3-d0e12763b9ef">
 
@@ -106,3 +106,5 @@ sns.heatmap(df.corr(),annot=True)
 
 # RESULT:
 Thus we have read the given data and performed the multivariate analysis with different types of plots.
+
+
