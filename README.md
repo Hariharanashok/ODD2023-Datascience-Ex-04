@@ -15,7 +15,7 @@ Exploratory data analysis is used to understand the messages within a dataset. T
 ### Program:
 - SuperStore.csv
 Python
-```
+```python
 import pandas as pd
 import seaborn as sns
 from scipy import stats
@@ -49,7 +49,7 @@ sns.displot(df,x='Region',hue="Category")
 
 - Diabetes.csv
 Python
-```
+```python
 import pandas as pd
 import seaborn as sns
 from scipy import stats
